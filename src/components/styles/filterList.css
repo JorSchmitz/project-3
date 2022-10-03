@@ -1,0 +1,14 @@
+/*.filter__list {
+    position: absolute;
+    z-index: 100;
+    background-color: var(--background-body);
+    width: 70%;
+}*/
+.filter__list li {
+    width: 100%;
+    padding: 3px;
+    cursor: pointer;
+}
+.filter__list li:hover {
+    background-color: var(--background-cards);
+}
